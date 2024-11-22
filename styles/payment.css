@@ -1,0 +1,36 @@
+.payment-type-list {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.payment-type-item {
+    flex: 1 1 0;
+    border-radius: 12px;
+    border: 1px solid #D2D5DA;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.payment-type-item:hover,
+.payment-item-selection{
+    background: #ECE9FC;
+    border: 1px solid #743EE4;
+}
+
+.payment-type-item > img {
+    width: 20px;
+    height: 20px;
+}
+
+.payment-type-item > p {
+    color: #121826;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.01rem;
+}

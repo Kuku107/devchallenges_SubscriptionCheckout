@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription Checkout</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/heading.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/payment.css">
+</head>
+<body>
+<div class="container">
+    <section class="info-and-payment">
+        <article class="heading-section">
+            <div class="heading-section__logo">
+                <span><img src="resources/logo.svg" alt="logo"></span>
+                <p>Neuralite</p>
+            </div>
+            <div class="heading-section__title">
+                <h1>Upgrade to Plus</h1>
+                <p>Upgrade today and take your AI-powered productivity to the next level.</p>
+            </div>
+        </article>
+        <article class="info-section">
+            <div class="form__control">
+                <label class="form__label" for="userName">Billed to</label>
+                <input class="form__input" id="userName" type="text" placeholder="Enter first & last name">
+            </div>
+            <div class="form__control">
+                <label class="form__label">Payment Details</label>
+                <div class="payment-type-list">
+                    <div class="payment-type-item payment-item-selection">
+                        <img src="resources/Atm%20Card.svg" alt="atm card svg">
+                        <p>Credit Card</p>
+                    </div>
+                    <div class="payment-type-item">
+                        <img src="resources/bank.svg" alt="bank svg">
+                        <p>Bank Transfer</p>
+                    </div>
+                    <div class="payment-type-item">
+                        <img src="resources/card.svg" alt="card svg">
+                        <p>Points</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form__control">
+                <label class="form__label" for="userEmail">Email Address</label>
+                <input class="form__input" id="userEmail" type="text" placeholder="Enter email address">
+            </div>
+            <div>
+                <div class="form__control form__control--select">
+                    <label class="form__label" for="userCountry">Country</label>
+                    <select class="form__select" name="userCountry" id="userCountry">
+                        <option value="fin">Finland</option>
+                        <option value="vi">Vietnam</option>
+                        <option value="jap">Japan</option>
+                    </select>
+                </div>
+                <div class="form__control">
+                    <label class="form__label" for="userPostalCode">Postal Code</label>
+                    <input class="form__input" id="userPostalCode" type="text" placeholder="00270">
+                </div>
+            </div>
+        </article>
+        <article class="action-section">
+            <button>Cancel</button>
+            <button>Subscribe</button>
+        </article>
+    </section>
+    <section></section>
+</div>
+</body>
+</html>
