@@ -31,18 +31,27 @@
             <div class="form__control">
                 <label class="form__label">Payment Details</label>
                 <div class="payment-type-list">
-                    <div class="payment-type-item payment-item-selection">
-                        <img src="resources/Atm%20Card.svg" alt="atm card svg">
-                        <p>Credit Card</p>
-                    </div>
-                    <div class="payment-type-item">
-                        <img src="resources/bank.svg" alt="bank svg">
-                        <p>Bank Transfer</p>
-                    </div>
-                    <div class="payment-type-item">
-                        <img src="resources/card.svg" alt="card svg">
-                        <p>Points</p>
-                    </div>
+                    <label>
+                        <input type="radio" name="payment-type" class="payment-type__radio" checked>
+                        <div class="payment-type-item payment-item-selection">
+                            <img src="resources/Atm%20Card.svg" alt="atm card svg">
+                            <p>Credit Card</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-type" class="payment-type__radio">
+                        <div class="payment-type-item">
+                            <img src="resources/bank.svg" alt="bank svg">
+                            <p>Bank Transfer</p>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="radio" name="payment-type" class="payment-type__radio">
+                        <div class="payment-type-item">
+                            <img src="resources/card.svg" alt="card svg">
+                            <p>Points</p>
+                        </div>
+                    </label>
                 </div>
             </div>
             <div class="form__control">
