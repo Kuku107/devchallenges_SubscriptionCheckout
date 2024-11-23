@@ -68,6 +68,7 @@
 
 .form__control--select {
     position: relative;
+    background-color: #FFFFFF;
 }
 
 .form__control--select::after {
