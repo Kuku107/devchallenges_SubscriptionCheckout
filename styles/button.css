@@ -1,0 +1,29 @@
+.action-section {
+    display: flex;
+    gap: 16px;
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.01rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary  {
+    flex-grow: 1;
+    color: #FFFFFF;
+    background: #743EE4;
+}
+
+.btn-secondary {
+    color: #121826;
+}
