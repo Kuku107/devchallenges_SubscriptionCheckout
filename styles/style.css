@@ -13,6 +13,7 @@ body {
 .container {
     display: flex;
     flex-direction: column-reverse;
+    /*align-items: center;*/
 }
 
 .info-and-payment {
@@ -21,8 +22,25 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-self: stretch;
 }
 
 @media(min-width: 1024px) {
-    flex-direction: row;
+    body {
+        padding-top: 0;
+    }
+    .container {
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1280px) {
+    .container {
+        gap: 20px;
+    }
+
+    .info-and-payment {
+        padding: 40px 72px;
+    }
 }

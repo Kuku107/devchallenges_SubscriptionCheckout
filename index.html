@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="styles/plan.css">
 </head>
 <body>
-<div class="container">
-    <form class="info-and-payment" action="#" method="post">
+<form class="container" action="#" method="post">
+    <section class="info-and-payment">
         <article class="heading-section">
             <div class="heading-section__logo">
                 <span><img src="resources/logo.svg" alt="logo"></span>
@@ -68,8 +68,45 @@
             <button class="btn btn-secondary">Cancel</button>
             <button type="submit" class="btn btn-primary">Subscribe</button>
         </article>
-    </form>
-    <section></section>
-</div>
+    </section>
+    <section class="plan">
+        <div class="plan-selection">
+            <p class="plan__title--small">Starter Plan</p>
+            <label class="plan-selection__item">
+                <div class="plan-selection__radio">
+                    <input type="radio" name="plan" value="monthly" checked>
+                </div>
+                <div class="plan-selection__content">
+                    <p class="plan__title--small">Pay monthly</p>
+                    <p class="plan-selection__description">$20/ Month/ Member</p>
+                </div>
+            </label>
+            <label class="plan-selection__item">
+                <div class="plan-selection__radio">
+                    <input type="radio" name="plan" value="annual">
+                </div>
+                <div class="plan-selection__content">
+                    <p class="plan__title--small">Pay Annual</p>
+                    <p class="plan-selection__description">$16/ Month/ Member</p>
+                </div>
+            </label>
+        </div>
+        <div class="line"></div>
+        <div class="plan-amount">
+            <div class="plan-amount__price">
+                <p class="plan__title--big">Total</p>
+                <p class="plan__title--big">$20 / Month</p>
+            </div>
+            <div class="plan-amount__warning">
+                <img src="resources/unlock%20key%20alt.svg" alt="unlock key svg">
+                <p>
+                    This environment is for demonstration purposes only. Please refrain from entering any actual
+                    sensitive data.
+                </p>
+            </div>
+        </div>
+        <img src="resources/51.png" alt="background plan">
+    </section>
+</form>
 </body>
 </html>
